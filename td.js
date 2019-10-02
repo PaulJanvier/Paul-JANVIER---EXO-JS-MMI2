@@ -26,6 +26,19 @@ function Division(){
   document.getElementById('result-exo-1-3').innerHTML = result_ex1_3;
 }
 
+  function largeurEcran(){
+    document.getElementById("largeurEcran").innerHTML = "La largeur disponible de votre écran est " + screen.availWidth;
+  }
+  
+  function resolution() {
+    largeur = window.innerWidth
+    hauteur = window.innerHeight
+      document.getElementById("resEcran").innerHTML = largeur + "x" + hauteur;
+    }
+  largeurEcran();
+  resolution();
+
+
 
 
 
