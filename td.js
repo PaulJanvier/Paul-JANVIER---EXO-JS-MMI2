@@ -186,6 +186,16 @@ function calculgain(){
     document.getElementById('gain').innerHTML = gain
   }
 
+function convertkmtotemps(){
+var km = document.getElementById('ex12_input1').value;
+var convertkmtotemps = km / 1000;
+document.getElementById('ex12_result').innerHTML = convertkmtotemps;
+  }
+function converttempstokm(){
+var heures = document.getElementById('ex12_input2').value;
+var converttempstokm = heures * 1000;
+document.getElementById('ex12_result_2').innerHTML = converttempstokm;
+  }
 
 
 /*
